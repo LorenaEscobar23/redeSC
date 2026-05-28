@@ -15,6 +15,7 @@ export type AreaTecnica =
   | 'ASSISTENCIA'
   | 'TI'
   | 'GESTAO_PESSOAS'
+  | 'PEC'
   | 'SEGURANCA'
   | 'SESMT'
   | 'OUTROS';
@@ -449,6 +450,7 @@ export const AREA_TECNICA_LABELS: Record<AreaTecnica, string> = {
   ASSISTENCIA: 'Assistência',
   TI: 'TI (Integração Sistema)',
   GESTAO_PESSOAS: 'Gestão de Pessoas',
+  PEC: 'PEC',
   SEGURANCA: 'Segurança',
   SESMT: 'SESMT',
   OUTROS: 'Outros',
@@ -471,6 +473,7 @@ export const AREA_TECNICA_EMAILS: Record<Exclude<AreaTecnica, 'OUTROS'>, string>
   ASSISTENCIA: 'assistencia@empresa.com',
   TI: 'ti@empresa.com',
   GESTAO_PESSOAS: 'gestao.pessoas@empresa.com',
+  PEC: 'pec@empresa.com',
   SEGURANCA: 'seguranca@empresa.com',
   SESMT: 'sesmt@empresa.com',
 };
