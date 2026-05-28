@@ -982,6 +982,7 @@ export async function enviarParaSuprimentos(
       'ENGENHARIA': 'engenharia@empresa.com',
       'TI': 'ti@empresa.com',
       'GESTAO_PESSOAS': 'gestao.pessoas@empresa.com',
+      'PEC': 'pec@empresa.com',
       'SEGURANCA': 'seguranca@empresa.com',
       'SESMT': 'sesmt@empresa.com',
       'OUTROS': 'outros@empresa.com',

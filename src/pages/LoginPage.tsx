@@ -13,7 +13,8 @@ const profiles: { role: UserRole; name: string; description: string; color: stri
   { role: 'ENGENHARIA', name: 'Antônio Engenheiro Clinico', description: 'Análise técnica de projetos', color: 'bg-orange-50 border-orange-200 hover:bg-orange-100' },
   { role: 'ASSISTENCIA', name: 'Chris', description: 'Suprimentos', color: 'bg-rose-50 border-rose-200 hover:bg-rose-100' },
   { role: 'TI', name: 'Daniel', description: 'Integração e análise de sistemas', color: 'bg-purple-50 border-purple-200 hover:bg-purple-100' },
-  { role: 'GESTAO_PESSOAS', name: 'Angela', description: 'Análise de PEC', color: 'bg-pink-50 border-pink-200 hover:bg-pink-100' },
+  { role: 'GESTAO_PESSOAS', name: 'Angela', description: 'Análise de RH', color: 'bg-pink-50 border-pink-200 hover:bg-pink-100' },
+  { role: 'PEC', name: 'João - PEC', description: 'Análise de PEC', color: 'bg-cyan-50 border-cyan-200 hover:bg-cyan-100' },
   { role: 'SEGURANCA', name: 'Elcio - Equipe Segurança', description: 'Validação de segurança', color: 'bg-red-50 border-red-200 hover:bg-red-100' },
   { role: 'SESMT', name: 'Equipe SESMT', description: 'Segurança e saúde no trabalho', color: 'bg-yellow-50 border-yellow-200 hover:bg-yellow-100' },
 ];

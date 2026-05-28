@@ -25,6 +25,7 @@ function getStepIndex(status: StatusDemanda): number {
     APROVADA: 3,
     REJEITADA: -1,
     CHAMADO_SUPRIMENTOS: 4,
+    CANCELADA: -1,
   };
   return map[status] ?? 0;
 }
@@ -40,6 +41,7 @@ function getCompletedUpTo(status: StatusDemanda): number {
     APROVADA: 3,
     REJEITADA: -2,
     CHAMADO_SUPRIMENTOS: 4,
+    CANCELADA: -2,
   };
   return map[status] ?? -1;
 }

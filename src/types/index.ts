@@ -233,7 +233,7 @@ export interface Demanda {
   dadosAprovacao?: DadosAprovacao;
 }
 
-export type UserRole = 'SOLICITANTE' | 'LEONARDO' | 'DIRETOR' | 'MARCOS' | 'VIANA' | 'KLEBER' | 'ENGENHARIA' | 'ASSISTENCIA' | 'TI' | 'GESTAO_PESSOAS' | 'SEGURANCA' | 'SESMT' | 'OUTROS';
+export type UserRole = 'SOLICITANTE' | 'LEONARDO' | 'DIRETOR' | 'MARCOS' | 'VIANA' | 'KLEBER' | 'ENGENHARIA' | 'ASSISTENCIA' | 'TI' | 'GESTAO_PESSOAS' | 'PEC' | 'SEGURANCA' | 'SESMT' | 'OUTROS';
 
 export interface User {
   id: string;
@@ -254,7 +254,8 @@ export const DEMO_USERS: User[] = [
   { id: '6', name: 'Antônio Engenheiro Clinico', email: 'antonio@empresa.com', casa: 'Sede Principal', departamento: 'Engenharia', centroDeCusto: '44444 - Engenharia', role: 'ENGENHARIA' },
   { id: '7', name: 'Chris', email: 'chris@empresa.com', casa: 'Sede Principal', departamento: 'Suprimentos', centroDeCusto: '45555 - Suprimentos', role: 'ASSISTENCIA' },
   { id: '8', name: 'Daniel', email: 'daniel@empresa.com', casa: 'Sede Principal', departamento: 'TI - Integração Sistema', centroDeCusto: '46666 - TI', role: 'TI' },
-  { id: '9', name: 'Angela', email: 'angela@empresa.com', casa: 'Sede Principal', departamento: 'PEC', centroDeCusto: '47777 - PEC', role: 'GESTAO_PESSOAS' },
+  { id: '9', name: 'Angela', email: 'angela@empresa.com', casa: 'Sede Principal', departamento: 'Gestão de Pessoas', centroDeCusto: '47777 - Gestão de Pessoas', role: 'GESTAO_PESSOAS' },
+  { id: '9.1', name: 'João - PEC', email: 'pec@empresa.com', casa: 'Sede Principal', departamento: 'PEC', centroDeCusto: '47777 - PEC', role: 'PEC' },
   { id: '10', name: 'Elcio - Equipe Segurança', email: 'seguranca@empresa.com', casa: 'Sede Principal', departamento: 'Segurança', centroDeCusto: '48888 - Segurança', role: 'SEGURANCA' },
   { id: '11', name: 'Equipe SESMT', email: 'sesmt@empresa.com', casa: 'Sede Principal', departamento: 'SESMT', centroDeCusto: '49999 - SESMT', role: 'SESMT' },
 ];

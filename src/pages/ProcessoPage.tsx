@@ -525,7 +525,8 @@ export function ProcessoPage() {
             'ENGENHARIA': 'engenharia@empresa.com',
             'ASSISTENCIA': 'assistencia@empresa.com',
             'TI': 'ti@empresa.com',
-            'GESTAO_PESSOAS': 'rh@empresa.com',
+            'GESTAO_PESSOAS': 'gestao.pessoas@empresa.com',
+            'PEC': 'pec@empresa.com',
             'SEGURANCA': 'seguranca@empresa.com',
             'SESMT': 'sesmt@empresa.com',
             'OUTROS': 'outros@empresa.com',
@@ -2013,7 +2014,7 @@ export function ProcessoPage() {
                     <div>
                       <label className="block text-sm font-medium text-gray-700 mb-3">Selecione as Áreas Técnicas *</label>
                       <div className="space-y-2">
-                        {['ENGENHARIA', 'ASSISTENCIA', 'TI', 'GESTAO_PESSOAS', 'SEGURANCA', 'SESMT'].map((area) => (
+                        {['ENGENHARIA', 'ASSISTENCIA', 'TI', 'GESTAO_PESSOAS', 'PEC', 'SEGURANCA', 'SESMT'].map((area) => (
                           <label key={area} className="flex items-center gap-2">
                             <input
                               type="checkbox"
